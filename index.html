@@ -17,21 +17,24 @@
     />
 
     <title>Frontend Mentor | Meet landing page</title>
+    <link rel="stylesheet/less" href="styles.less" type="text/css" />
   </head>
   <body>
     <header class="header">
       <img src="./assets/logo.svg" alt="logo" class="header__logo" />
       <img src="./assets/tablet/image-hero.png" alt="" class="header__image" />
     </header>
-    <main>
-      <section>
-        <h1>Group Chat for Everyone</h1>
-        <p>
+    <main class="main-container">
+      <section class="description-area">
+        <h1 class="description-area__title">Group Chat for Everyone</h1>
+        <p class="description-area__text">
           Meet makes it easy to connect with others face-to-face virtually and
           collaborate across any device.
         </p>
-        <button>Download <span>v1.3</span></button>
-        <button>What is it?</button>
+        <button class="button button--green">
+          Download<span class="button__text-highlight">v1.3</span>
+        </button>
+        <buttonc class="button button--purple">What is it?</button>
       </section>
       <div>01</div>
       <section>
@@ -69,5 +72,6 @@
       </p>
       <button>Download <span>v1.3</span></button>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
   </body>
 </html>
