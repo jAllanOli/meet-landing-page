@@ -22,20 +22,38 @@
   <body>
     <header class="header">
       <img src="./assets/logo.svg" alt="logo" class="header__logo" />
-      <img src="./assets/tablet/image-hero.png" alt="" class="header__image" />
+      <div class="hero-container">
+        <img
+          src="./assets/tablet/image-hero.png"
+          alt="people"
+          class="header__mobile-hero"
+        />
+        <img
+          src="./assets/desktop/image-hero-left.png"
+          alt="#"
+          class="header__desktop-left-hero"
+        />
+        <section class="description-area">
+          <h1 class="description-area__title">Group Chat for Everyone</h1>
+          <p class="description-area__text">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="buttons-container">
+            <button class="button button--green">
+              Download<span class="button__text-highlight">v1.3</span>
+            </button>
+            <button class="button button--purple">What is it?</button>
+          </div>
+        </section>
+        <img
+          src="./assets/desktop/image-hero-right.png"
+          alt="#"
+          class="header__desktop-right-hero"
+        />
+      </div>
     </header>
     <main class="main-container">
-      <section class="description-area">
-        <h1 class="description-area__title">Group Chat for Everyone</h1>
-        <p class="description-area__text">
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
-        <button class="button button--green">
-          Download<span class="button__text-highlight">v1.3</span>
-        </button>
-        <button class="button button--purple">What is it?</button>
-      </section>
       <section class="pictures-area">
         <div class="indicator">01</div>
         <div class="pictures-grid">
